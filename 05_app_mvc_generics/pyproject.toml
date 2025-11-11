@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meu-pacote-mvc"
+version = "0.1.0"
+description = "Biblioteca MVC com controllers, services e repository genéricos"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Rafael", email = "seu_email@exemplo.com" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/seuusuario/meu-pacote-mvc"
